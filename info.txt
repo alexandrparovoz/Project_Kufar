@@ -1,0 +1,11 @@
+https://habr.com/ru/articles/713490/
+1. Создаем DRF проект
+2. В нем приложение DRF
+3. Регистрируем в сеттингах
+4. Создаем модель и прописывем пути
+5. Во вьюе пишем методы
+6. Сериалайзер
+7. Создаем прложение фронтенд на React
+  npx create-react-app react_frontend
+  npm i axios reactstrap bootstrap
+8.
