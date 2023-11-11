@@ -26,7 +26,7 @@ const ModalKufar_prod = (props) => {
             {button}
             <Modal isOpen={visible} toggle={toggle}>
                 <ModalHeader
-                    style={{justifyContent: "center"}}>{props.create ? "Добавить студента" : "Редактировать студента"}</ModalHeader>
+                    style={{justifyContent: "center"}}>{props.create ? "Добавить товар" : "Редактировать товар"}</ModalHeader>
                 <ModalBody>
                     <Kufar_prodForm
                         kufar_prod={props.kufar_prod ? props.kufar_prod : []}

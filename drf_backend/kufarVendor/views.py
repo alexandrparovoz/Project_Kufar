@@ -1,8 +1,9 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
-from .serializers import *
 
+from .serializers import *
+from .models import KufarVendors
 
 
 @api_view(['GET', 'POST'])

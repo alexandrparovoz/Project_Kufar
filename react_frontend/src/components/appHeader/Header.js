@@ -1,13 +1,16 @@
+import {Button} from "reactstrap";
+
 const Header = () => {
     return (
         <div className="text-center">
-            <img
-                src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
-                width="70"
-                className="img-thumbnail"
-                style={{marginTop: "19px"}}
-                alt="logo"
-            />
+            <Button
+                color="primary"
+                className="float-right"
+                style={{minWidth: "200px"}}>
+                Категории
+            </Button>
+            <button type="button" className="btn btn-outline-primary">Купить</button>
+
             <hr/>
             <h1>Что-то похожее на Куфар</h1>
         </div>)
